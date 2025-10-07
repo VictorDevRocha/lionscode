@@ -1,0 +1,19 @@
+@import "global.css";
+
+/* components */
+
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/button-whats.css";
+@import "./components/thanks.css";
+
+/* home */
+
+@import "./pages/home/hero.css";
+@import "./pages/home/about.css";
+@import "./pages/home/partners.css";
+@import "./pages/home/process.css";
+@import "./pages/home/services.css";
+@import "./pages/home/models.css";
+@import "./pages/home/evolution.css";
+@import "./pages/home/contact.css";

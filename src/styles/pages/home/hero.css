@@ -1,0 +1,46 @@
+.section_hero {
+  background-image: url("./../../../../public/assets/images/background-hero.png");
+  min-height: 100vh;
+}
+
+.section_hero .container_hero {
+  padding: 200px 0px;
+}
+
+@media (max-width: 1441px) {
+  .section_hero .container_hero {
+    padding: 120px 0px;
+  }
+}
+
+.section_hero .container_hero div {
+  width: 100%;
+  max-width: 580px;
+}
+
+.section_hero .container_hero div p {
+  width: 100%;
+  max-width: 480px;
+}
+
+.line_linear {
+  height: 5px;
+  width: 100%;
+  background: var(--BG-Hor);
+}
+
+@media (max-width: 1224px) {
+  .section_hero .container_hero {
+    padding: 88px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section_hero .container_hero {
+    padding: 60px 20px 88px;
+  }
+
+  .section_hero {
+    min-height: fit-content;
+  }
+}

@@ -1,0 +1,143 @@
+.section_services {
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.section_services .container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.left_services {
+  width: 100%;
+  max-width: 467px;
+}
+
+.right_services {
+  display: flex;
+  align-items: start;
+  gap: 24px;
+}
+
+.card_services {
+  width: 100%;
+  padding: 24px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 12px;
+  background: rgba(66, 51, 81, 0.5);
+  box-shadow: 2px 2px 24px 0px rgba(255, 255, 255, 0.1);
+}
+
+.card_services .top_card_services {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.left_card_services {
+  width: 100%;
+  max-width: 280px;
+}
+
+.right_card_services {
+  width: 100%;
+  max-width: 128px;
+}
+
+.bottom_card_services {
+  width: 100%;
+}
+
+.bottom_card_services img {
+  width: 100%;
+}
+
+.last_card_services {
+  width: 100%;
+  padding: 24px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(66, 51, 81, 0.5);
+  text-align: center;
+  min-height: 573px;
+  border-radius: 12px;
+  background: var(--Foundation-Primary-primary-400, #423351);
+}
+
+.wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container_scroll {
+  display: flex;
+  align-items: center;
+  width: 300vw;
+}
+
+.section_services {
+  padding: 60px 0px 60px calc((100vw - 1224px) / 2);
+  /* Espaçamento dinâmico baseado na largura da viewport */
+}
+
+.section_services_mobile {
+  display: none;
+}
+
+@media (max-width: 1366px) {
+  .section_services {
+    padding: 60px 0px 60px 40px;
+  }
+}
+
+@media (max-width: 1224px) {
+  .section_services {
+    display: none;
+  }
+
+  .section_services_mobile {
+    display: block;
+    background-color: var(--primary);
+    padding: 60px 20px;
+  }
+
+  .section_services_mobile .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top_services {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .top_services .text_style {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1224px) {
+  .top_card_services {
+    flex-direction: column;
+    text-align: center;
+    gap: 4px !important;
+  }
+
+  .top_card_services .right_card_services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+}

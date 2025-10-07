@@ -1,0 +1,31 @@
+.section_models {
+  padding: 60px 0px;
+}
+
+.section_models .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap-reverse;
+}
+
+.left_models {
+  width: 100%;
+  max-width: 580px;
+}
+
+.left_models img {
+  width: 100%;
+}
+
+.right_models {
+  width: 100%;
+  max-width: 580px;
+}
+
+@media (max-width: 1224px) {
+  .section_models {
+    padding: 60px 20px;
+  }
+}

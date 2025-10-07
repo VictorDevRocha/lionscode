@@ -1,0 +1,50 @@
+.section_process {
+  padding: 60px 0px;
+}
+
+.section_process .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  flex-direction: column;
+}
+
+.top_process {
+  width: 100%;
+  max-width: 784px;
+  text-align: center;
+}
+
+.top_process .text_style {
+  margin: 0 auto;
+}
+
+.mid_process {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card_process {
+  width: 295px;
+  border-top: 1px solid #e7e6e9;
+}
+
+.card_process .number_card {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -1.8px;
+  color: var(--text-white);
+  margin: 24px 0px 32px;
+}
+
+@media (max-width: 1224px) {
+  .section_process {
+    padding: 60px 20px;
+  }
+}
