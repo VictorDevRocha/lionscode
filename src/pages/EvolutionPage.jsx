@@ -405,6 +405,35 @@ const EvolutionPage = () => {
               </p>
               <span className="evidence-source">Fonte: Google Mobile-First Index</span>
             </div>
+
+            <div className="evidence-card" data-aos="fade-up" data-aos-delay="600">
+              <div className="evidence-icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 2V8" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M24 40V46" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M8.92 8.92L13.76 13.76" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M34.24 34.24L39.08 39.08" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M2 24H8" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M40 24H46" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M8.92 39.08L13.76 34.24" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M34.24 13.76L39.08 8.92" stroke="url(#gradient6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <circle cx="24" cy="24" r="8" fill="url(#gradient6)" opacity="0.2"/>
+                  <circle cx="24" cy="24" r="8" stroke="url(#gradient6)" strokeWidth="2"/>
+                  <defs>
+                    <linearGradient id="gradient6" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#FF6B00"/>
+                      <stop offset="1" stopColor="#FFB800"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3 className="heading24 font700 white margin12">Velocidade = Vendas</h3>
+              <p className="body16 font400 white margin16">
+                Cada segundo de atraso no carregamento reduz conversões em 7%. Sites que carregam em 1s 
+                têm 3x mais conversões que sites de 5s. A velocidade impacta diretamente no faturamento.
+              </p>
+              <span className="evidence-source">Fonte: Google/SOASTA Research</span>
+            </div>
           </div>
         </div>
       </section>
