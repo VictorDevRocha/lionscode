@@ -185,6 +185,24 @@
   opacity: 1;
 }
 
+/* Click Indicator for Mobile */
+.portfolio-card-image::after {
+  content: "👆 Toque para ver";
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: linear-gradient(90deg, #e54a64 -0.31%, #fd9253 99.69%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 4px 12px rgba(229, 74, 100, 0.4);
+}
+
 /* Modal */
 .portfolio-modal {
   position: fixed;
@@ -484,6 +502,11 @@
 
   .portfolio-grid-section h2 {
     margin-bottom: 40px;
+  }
+
+  /* Show click indicator on mobile */
+  .portfolio-card-image::after {
+    opacity: 1;
   }
 
   .portfolio-modal {
