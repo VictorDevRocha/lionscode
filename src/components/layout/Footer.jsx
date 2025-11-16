@@ -55,6 +55,18 @@ const Footer = () => {
               </a>
               <a
                 href="#"
+                onClick={() => handleNavigation("/portfolio")}
+                className="body14 white font700 upper">
+                Portfólio
+              </a>
+              <a
+                href="#"
+                onClick={() => handleNavigation("/criacao-de-site")}
+                className="body14 white font700 upper">
+                Criação de Site
+              </a>
+              <a
+                href="#"
                 onClick={() => handleNavigation("/evolucao-digital")}
                 className="body14 white font700 upper">
                 Evolução de Site

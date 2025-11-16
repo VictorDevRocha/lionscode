@@ -65,6 +65,15 @@ const Header = () => {
               className="body14 white font700 upper">
               Serviços
             </a>
+            <a href="#" onClick={() => handleNavigation("/portfolio")} className="body14 white font700 upper">
+              Portfólio
+            </a>
+            <a
+              href="#"
+              onClick={() => handleNavigation("/criacao-de-site")}
+              className="body14 white font700 upper">
+              Criação de Site
+            </a>
             <a
               href="#"
               onClick={() => handleNavigation("/evolucao-digital")}
@@ -236,6 +245,83 @@ const Header = () => {
                   </defs>
                 </svg>
                 Serviços
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                onClick={() => handleNavigation("/portfolio")}
+                className="link_mobile font500 body18 gray2 close_menu">
+                <svg
+                  className="icon_link_mobile"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22 19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0391 20.7893 20.5304 21 20 21H4C3.46957 21 2.96086 20.7893 2.58579 20.4142C2.21071 20.0391 2 19.5304 2 19V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H9L11 6H20C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V19Z"
+                    stroke="url(#gradient-portfolio)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="gradient-portfolio"
+                      x1="2"
+                      y1="3"
+                      x2="22"
+                      y2="21"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#FF6B00" />
+                      <stop offset="1" stopColor="#FFB800" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                Portfólio
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                onClick={() => handleNavigation("/criacao-de-site")}
+                className="link_mobile font500 body18 gray2 close_menu">
+                <svg
+                  className="icon_link_mobile"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 2L2 7L12 12L22 7L12 2Z"
+                    stroke="url(#gradient-criacao)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M2 17L12 22L22 17M2 12L12 17L22 12"
+                    stroke="url(#gradient-criacao)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="gradient-criacao"
+                      x1="2"
+                      y1="2"
+                      x2="22"
+                      y2="22"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#FF6B00" />
+                      <stop offset="1" stopColor="#FFB800" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                Criação de Site
               </a>
             </li>
             <li>

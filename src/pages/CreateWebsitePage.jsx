@@ -6,12 +6,12 @@ import { EMAILJS_CONFIG } from "../config/emailjs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const EvolutionPage = () => {
+const CreateWebsitePage = () => {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
     email: "",
-    subject: "Evolução Digital - Análise Gratuita",
+    subject: "Criação de Site - Orçamento Gratuito",
     message: "",
   });
 
@@ -85,7 +85,7 @@ const EvolutionPage = () => {
         name: "",
         phone: "",
         email: "",
-        subject: "Evolução Digital - Análise Gratuita",
+        subject: "Criação de Site - Orçamento Gratuito",
         message: "",
       });
 
@@ -117,19 +117,20 @@ const EvolutionPage = () => {
         <div className="container">
           <div className="hero-content" data-aos="fade-up">
             <h1 className="heading64 font700 white margin24">
-              Evolução Digital: <br />
-              <span className="text_linear_hor">Transforme seu Site em uma Máquina de Vendas</span>
+              Criação de Site Profissional: <br />
+              <span className="text_linear_hor">Transforme Sua Ideia em Realidade Digital</span>
             </h1>
             <p className="body20 font400 white margin32 max-width-900">
-              Seu site atual está te custando dinheiro? Um site desatualizado não apenas prejudica sua imagem,
-              mas também desperdiça oportunidades de negócio. É hora de evoluir.
+              Ainda não tem um site para o seu negócio? Está na hora de marcar presença online! Criamos sites
+              modernos, rápidos e prontos para aparecer no Google, conquistar clientes e fazer sua empresa
+              crescer.
             </p>
             <a
-              href="https://wa.me/5513982051521?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20an%C3%A1lise%20gratuita%20do%20meu%20site%20e%20saber%20mais%20sobre%20Evolu%C3%A7%C3%A3o%20Digital."
+              href="https://wa.me/5513982051521?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20criar%20meu%20site."
               target="_blank"
               rel="noopener noreferrer"
               className="btn_cta1">
-              <span>Solicitar Análise Gratuita</span>
+              <span>Solicitar Orçamento Gratuito</span>
               <img src="/assets/images/home/arrow-card.svg" alt="arrow" />
             </a>
           </div>
@@ -140,12 +141,12 @@ const EvolutionPage = () => {
       <section className="evolution-evidence">
         <div className="container">
           <div className="text_style center" data-aos="fade-up">
-            <p className="label font700 upper text_linear_hor">DADOS E EVIDÊNCIAS</p>
+            <p className="label font700 upper text_linear_hor">POR QUE TER UM SITE?</p>
             <div className="line"></div>
           </div>
 
           <h2 className="heading40 font700 white margin24 text-center" data-aos="fade-up">
-            Por que sites modernos com bom SEO fazem diferença?
+            Por que sites bem feitos fazem diferença para seu negócio?
           </h2>
 
           <div className="evidence-grid">
@@ -183,10 +184,10 @@ const EvolutionPage = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="heading24 font700 white margin12">Core Web Vitals = Ranking</h3>
+              <h3 className="heading24 font700 white margin12">Apareça nas Buscas do Google</h3>
               <p className="body16 font400 white margin16">
-                O Google confirma: sites com LCP menor que 2.5s, FID menor que 100ms e CLS menor que 0.1
-                rankam melhor nos resultados de busca. Performance é fator de ranqueamento oficial.
+                Sites rápidos e bem estruturados aparecem nas primeiras posições quando alguém pesquisa por
+                serviços como o seu no Google. Isso significa mais clientes te encontrando organicamente.
               </p>
               <span className="evidence-source">Fonte: Google Search Central</span>
             </div>
@@ -230,12 +231,12 @@ const EvolutionPage = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="heading24 font700 white margin12">Tráfego Orgânico Sustentável</h3>
+              <h3 className="heading24 font700 white margin12">Trabalhe Enquanto Dorme</h3>
               <p className="body16 font400 white margin16">
-                SEO gera tráfego orgânico consistente sem dependência de anúncios pagos. Essencial para
-                pequenas empresas competirem com negócios maiores.
+                Seu site fica disponível 24 horas por dia, 7 dias por semana. Clientes podem conhecer seus
+                serviços, ver preços e entrar em contato mesmo fora do horário comercial.
               </p>
-              <span className="evidence-source">Fonte: Moz SEO Guide</span>
+              <span className="evidence-source">Fonte: Pesquisa de Mercado Digital</span>
             </div>
 
             <div className="evidence-card" data-aos="fade-up" data-aos-delay="300">
@@ -279,12 +280,12 @@ const EvolutionPage = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="heading24 font700 white margin12">Featured Snippets +35% CTR</h3>
+              <h3 className="heading24 font700 white margin12">Mais Credibilidade para Seu Negócio</h3>
               <p className="body16 font400 white margin16">
-                Sites otimizados aparecem em Featured Snippets e AI Overviews, aumentando a taxa de cliques em
-                35%. Mais visibilidade nos primeiros resultados.
+                81% dos consumidores pesquisam online antes de comprar. Ter um site profissional transmite
+                confiança e mostra que sua empresa é séria e atualizada.
               </p>
-              <span className="evidence-source">Fonte: Google Search Central</span>
+              <span className="evidence-source">Fonte: BrightLocal Consumer Review</span>
             </div>
 
             <div className="evidence-card" data-aos="fade-up" data-aos-delay="400">
@@ -335,12 +336,12 @@ const EvolutionPage = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="heading24 font700 white margin12">Impacto Real nos Negócios</h3>
+              <h3 className="heading24 font700 white margin12">Competir de Igual para Igual</h3>
               <p className="body16 font400 white margin16">
-                Vodafone: +8% nas vendas melhorando LCP. Renault: +30% nas conversões com melhor performance.
-                NDTV: -50% na taxa de rejeição. Dados reais de empresas reais.
+                Seus concorrentes já têm site? Então você está perdendo clientes para eles. Um site bem feito
+                nivela o jogo e até te coloca na frente de empresas maiores no Google.
               </p>
-              <span className="evidence-source">Fonte: Web.dev Case Studies</span>
+              <span className="evidence-source">Fonte: Estudos de Comportamento do Consumidor</span>
             </div>
 
             <div className="evidence-card" data-aos="fade-up" data-aos-delay="500">
@@ -398,10 +399,10 @@ const EvolutionPage = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="heading24 font700 white margin12">UX + SEO = Conversões</h3>
+              <h3 className="heading24 font700 white margin12">Funciona no Celular</h3>
               <p className="body16 font400 white margin16">
-                Sites rápidos e mobile-friendly rankam melhor E convertem mais. 60% das buscas vêm de mobile.
-                Velocidade, navegação clara e design responsivo impactam rankings e vendas.
+                Mais de 60% das pessoas acessam sites pelo celular. Criamos sites que funcionam perfeitamente
+                em qualquer dispositivo: computador, tablet ou smartphone.
               </p>
               <span className="evidence-source">Fonte: Google Mobile-First Index</span>
             </div>
@@ -486,10 +487,10 @@ const EvolutionPage = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className="heading24 font700 white margin12">Velocidade = Vendas</h3>
+              <h3 className="heading24 font700 white margin12">Sites Rápidos Vendem Mais</h3>
               <p className="body16 font400 white margin16">
-                Cada segundo de atraso no carregamento reduz conversões em 7%. Sites que carregam em 1s têm 3x
-                mais conversões que sites de 5s. A velocidade impacta diretamente no faturamento.
+                Se seu site demora mais de 3 segundos para carregar, você perde clientes. Criamos sites
+                ultrarrápidos que mantêm os visitantes navegando e aumentam suas vendas.
               </p>
               <span className="evidence-source">Fonte: Google/SOASTA Research</span>
             </div>
@@ -501,48 +502,49 @@ const EvolutionPage = () => {
       <section className="evolution-problem">
         <div className="container">
           <div className="text_style center" data-aos="fade-up">
-            <p className="label font700 upper text_linear_hor">O PROBLEMA</p>
+            <p className="label font700 upper text_linear_hor">SEM SITE, VOCÊ PERDE</p>
             <div className="line"></div>
           </div>
 
           <h2 className="heading40 font700 white margin24 text-center" data-aos="fade-up">
-            Por que seu site atual não está funcionando?
+            O que acontece quando você não tem um site?
           </h2>
 
           <div className="problem-grid">
             <div className="problem-card" data-aos="fade-up" data-aos-delay="100">
               <div className="problem-number">01</div>
-              <h3 className="heading24 font700 white margin12">Design Ultrapassado</h3>
+              <h3 className="heading24 font700 white margin12">Clientes Não Te Encontram</h3>
               <p className="body16 font400 white">
-                Visitantes julgam sua empresa em menos de 3 segundos. Um design antigo transmite falta de
-                profissionalismo e afasta clientes potenciais.
+                Quando alguém pesquisa no Google por serviços como o seu, quem aparece são seus concorrentes.
+                Sem site, você é invisível para novos clientes que estão procurando exatamente o que você
+                oferece.
               </p>
             </div>
 
             <div className="problem-card" data-aos="fade-up" data-aos-delay="200">
               <div className="problem-number">02</div>
-              <h3 className="heading24 font700 white margin12">Invisível no Google</h3>
+              <h3 className="heading24 font700 white margin12">Parece Desatualizado</h3>
               <p className="body16 font400 white">
-                Sem otimização SEO adequada, seu site não aparece nas pesquisas. Resultado? Seus concorrentes
-                estão conquistando os clientes que deveriam ser seus.
+                Em 2025, não ter um site faz sua empresa parecer desatualizada ou até mesmo não confiável.
+                Clientes esperam encontrar informações online antes de fazer negócio com qualquer empresa.
               </p>
             </div>
 
             <div className="problem-card" data-aos="fade-up" data-aos-delay="300">
               <div className="problem-number">03</div>
-              <h3 className="heading24 font700 white margin12">Taxa de Conversão Baixa</h3>
+              <h3 className="heading24 font700 white margin12">Perde Vendas Fora do Horário</h3>
               <p className="body16 font400 white">
-                Recebe visitas mas não vende? O problema está na estrutura. Sites sem estratégia de conversão
-                são apenas cartões de visita digitais desperdiçados.
+                Você só vende quando está aberto? Sem site, você perde todos os clientes que pesquisam à
+                noite, nos fins de semana ou em qualquer momento fora do seu horário comercial.
               </p>
             </div>
 
             <div className="problem-card" data-aos="fade-up" data-aos-delay="400">
               <div className="problem-number">04</div>
-              <h3 className="heading24 font700 white margin12">Campanhas que Não Convertem</h3>
+              <h3 className="heading24 font700 white margin12">Depende Só de Indicações</h3>
               <p className="body16 font400 white">
-                Investindo em Google Ads ou Facebook Ads sem retorno? O problema não é o anúncio, é a página
-                de destino que não está preparada para converter.
+                Sem presença online, você depende apenas de indicações e clientes que já te conhecem. Um site
+                te abre um mercado muito maior de pessoas que nunca ouviram falar de você.
               </p>
             </div>
           </div>
@@ -553,12 +555,12 @@ const EvolutionPage = () => {
       <section className="evolution-solution">
         <div className="container">
           <div className="text_style center" data-aos="fade-up">
-            <p className="label font700 upper text_linear_hor">A SOLUÇÃO</p>
+            <p className="label font700 upper text_linear_hor">O QUE VOCÊ RECEBE</p>
             <div className="line"></div>
           </div>
 
           <h2 className="heading40 font700 white margin24 text-center" data-aos="fade-up">
-            Redesign Completo com Foco em Resultados
+            Como criamos seu site profissional
           </h2>
 
           <div className="solution-content">
@@ -576,11 +578,11 @@ const EvolutionPage = () => {
                 </svg>
               </div>
               <div className="solution-text">
-                <h3 className="heading28 font700 white margin12">Design Moderno e Responsivo</h3>
+                <h3 className="heading28 font700 white margin12">Design Profissional e Bonito</h3>
                 <p className="body16 font400 white">
-                  Interface profissional alinhada com as últimas tendências de UX/UI. Design que funciona
-                  perfeitamente em desktop, tablet e mobile, garantindo a melhor experiência em qualquer
-                  dispositivo.
+                  Criamos um layout moderno e atraente que funciona perfeitamente em qualquer dispositivo:
+                  computador, tablet e celular. Seu site vai impressionar visitantes e transmitir
+                  profissionalismo.
                 </p>
               </div>
             </div>
@@ -599,11 +601,11 @@ const EvolutionPage = () => {
                 </svg>
               </div>
               <div className="solution-text">
-                <h3 className="heading28 font700 white margin12">SEO Estratégico</h3>
+                <h3 className="heading28 font700 white margin12">Preparado para Aparecer no Google</h3>
                 <p className="body16 font400 white">
-                  Otimização completa para mecanismos de busca: meta tags estratégicas, estrutura de URLs
-                  semânticas, schema markup, velocidade de carregamento otimizada e conteúdo estratégico para
-                  ranquear no Google.
+                  Otimizamos seu site para que ele apareça quando clientes pesquisarem por serviços como o seu
+                  no Google. Isso significa mais visitas de pessoas realmente interessadas no que você
+                  oferece.
                 </p>
               </div>
             </div>
@@ -622,11 +624,10 @@ const EvolutionPage = () => {
                 </svg>
               </div>
               <div className="solution-text">
-                <h3 className="heading28 font700 white margin12">Landing Pages de Alta Conversão</h3>
+                <h3 className="heading28 font700 white margin12">Formulário de Contato Funcional</h3>
                 <p className="body16 font400 white">
-                  Páginas de destino estrategicamente planejadas para Google Ads, Facebook Ads e campanhas de
-                  marketing. Estrutura persuasiva com CTAs eficientes que transformam visitantes em leads
-                  qualificados.
+                  Incluímos formulários para clientes entrarem em contato, botões de WhatsApp e todas as
+                  informações importantes. Facilitamos ao máximo para o cliente te encontrar e falar com você.
                 </p>
               </div>
             </div>
@@ -644,10 +645,10 @@ const EvolutionPage = () => {
                 </svg>
               </div>
               <div className="solution-text">
-                <h3 className="heading28 font700 white margin12">Performance Máxima</h3>
+                <h3 className="heading28 font700 white margin12">Carregamento Super Rápido</h3>
                 <p className="body16 font400 white">
-                  Velocidade de carregamento ultrarrápida com Core Web Vitals otimizados. Sites até 10x mais
-                  rápidos melhoram o ranking no Google e aumentam drasticamente as taxas de conversão.
+                  Ninguém gosta de esperar! Criamos sites que carregam rapidinho, em menos de 2 segundos. Isso
+                  mantém os visitantes no seu site e melhora sua posição no Google.
                 </p>
               </div>
             </div>
@@ -659,33 +660,33 @@ const EvolutionPage = () => {
       <section className="evolution-results">
         <div className="container">
           <div className="text_style center" data-aos="fade-up">
-            <p className="label font700 upper text_linear_hor">RESULTADOS</p>
+            <p className="label font700 upper text_linear_hor">BENEFÍCIOS</p>
             <div className="line"></div>
           </div>
 
           <h2 className="heading40 font700 white margin24 text-center" data-aos="fade-up">
-            O que você ganha com a Evolução Digital?
+            O que você ganha tendo um site profissional?
           </h2>
 
           <div className="results-grid">
             <div className="result-card" data-aos="zoom-in" data-aos-delay="100">
-              <div className="result-metric text_linear_hor">Maior</div>
-              <p className="body16 font700 white">Visibilidade no mercado digital</p>
+              <div className="result-metric text_linear_hor">24/7</div>
+              <p className="body16 font700 white">Seu negócio aberto o tempo todo</p>
             </div>
 
             <div className="result-card" data-aos="zoom-in" data-aos-delay="200">
-              <div className="result-metric text_linear_hor">Melhor</div>
-              <p className="body16 font700 white">Experiência para seus clientes</p>
+              <div className="result-metric text_linear_hor">Mais</div>
+              <p className="body16 font700 white">Clientes te encontrando no Google</p>
             </div>
 
             <div className="result-card" data-aos="zoom-in" data-aos-delay="300">
-              <div className="result-metric text_linear_hor">Mais</div>
-              <p className="body16 font700 white">Feedbacks positivos e engajamento</p>
+              <div className="result-metric text_linear_hor">Maior</div>
+              <p className="body16 font700 white">Credibilidade e confiança</p>
             </div>
 
             <div className="result-card" data-aos="zoom-in" data-aos-delay="400">
-              <div className="result-metric text_linear_hor">Superior</div>
-              <p className="body16 font700 white">Performance e carregamento rápido</p>
+              <div className="result-metric text_linear_hor">Melhor</div>
+              <p className="body16 font700 white">Apresentação dos seus serviços</p>
             </div>
           </div>
         </div>
@@ -696,16 +697,15 @@ const EvolutionPage = () => {
         <div className="container">
           <div className="cta-content" data-aos="fade-up">
             <h2 className="heading48 font700 white margin24 text-center">
-              Pronto para transformar seu site em uma{" "}
-              <span className="text_linear_hor">máquina de resultados</span>?
+              Pronto para criar seu site e <span className="text_linear_hor">conquistar novos clientes</span>?
             </h2>
             <p className="body18 font400 white margin32 text-center max-width-800">
-              Entre em contato agora e receba uma análise gratuita do seu site atual. Vamos mostrar exatamente
-              como podemos multiplicar seus resultados online.
+              Entre em contato agora e receba um orçamento gratuito. Vamos conversar sobre seu negócio e criar
+              um site que realmente faça diferença para você.
             </p>
             <div className="cta-buttons">
               <a
-                href="https://wa.me/5513982051521?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20an%C3%A1lise%20gratuita%20do%20meu%20site%20e%20saber%20mais%20sobre%20Evolu%C3%A7%C3%A3o%20Digital."
+                href="https://wa.me/5513982051521?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20criar%20meu%20site."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn_cta1">
@@ -722,17 +722,17 @@ const EvolutionPage = () => {
         <div className="container">
           <div className="evolution-contact-content" data-aos="fade-up">
             <div className="text_style center">
-              <p className="label font700 upper text_linear_hor">SOLICITE SUA ANÁLISE</p>
+              <p className="label font700 upper text_linear_hor">FALE CONOSCO</p>
               <div className="line"></div>
             </div>
 
             <h2 className="heading40 font700 white margin24 text-center">
-              Preencha o formulário e receba uma análise gratuita
+              Preencha o formulário e receba seu orçamento gratuito
             </h2>
 
             <p className="body16 font400 white margin32 text-center max-width-800">
-              Nossa equipe entrará em contato para entender suas necessidades e mostrar como podemos
-              transformar seu site em uma verdadeira máquina de vendas.
+              Nossa equipe entrará em contato para entender o que você precisa e criar o site perfeito para o
+              seu negócio.
             </p>
           </div>
 
@@ -792,13 +792,13 @@ const EvolutionPage = () => {
                   onChange={handleChange}
                   required
                   rows="5"
-                  placeholder="Conte-nos sobre seu projeto atual *"
+                  placeholder="Conte-nos sobre seu negócio e o que você precisa *"
                   className="body16 font400"
                   disabled={isLoading}></textarea>
               </div>
 
               <button type="submit" className="btn-submit" disabled={isLoading}>
-                {isLoading ? "Enviando..." : "Solicitar Análise Gratuita"}
+                {isLoading ? "Enviando..." : "Solicitar Orçamento Gratuito"}
               </button>
             </form>
 
@@ -809,7 +809,7 @@ const EvolutionPage = () => {
                   <img src="/assets/images/home/phone-contact.svg" alt="telefone" />
                 </a>
                 <a
-                  href="https://wa.me/5513982051521?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Evolu%C3%A7%C3%A3o%20Digital."
+                  href="https://wa.me/5513982051521?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20criar%20meu%20site."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-link">
@@ -829,4 +829,4 @@ const EvolutionPage = () => {
   );
 };
 
-export default EvolutionPage;
+export default CreateWebsitePage;
